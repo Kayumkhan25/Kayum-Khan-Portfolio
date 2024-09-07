@@ -5,8 +5,8 @@
     
      :root {
         --header-height: 3.5rem;
-        --hue: 200;
-        --first-color: hsl(var(--hue), 90%, 30%);
+        --hue: 180;
+        --first-color: hsl(var(--hue), 75%, 30%);
         --first-color-alt: hsl(var(--hue), 56%, 35%);
         --title-color: hsl(228, 8%, 95%);
         --text-color: hsl(228, 8%, 65%);
@@ -180,7 +180,7 @@
             top: 0;
             right: -100%;
             background-color: hsla(0, 0, 10%, .3);
-            width: 30%;
+            width: 40%;
             height: 100%;
             padding: 4.5rem 0 0 3rem;
             backdrop-filter: blur(24px);
@@ -474,10 +474,10 @@
         height: 100%;
         left: 0;
         bottom: -100%;
-        background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 0%, hsla(var(--hue), 70%, 40%, .8) 120%);
+        background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 0%, hsla(var(--hue), 30%, 40%, .9) 120%);
         backdrop-filter: blur(4px);
         --webkit-backdrop-filter: blur(4px);
-        border-radius: 1rem;
+        border-radius: .75rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -489,6 +489,7 @@
     .projects__button {
         color: var(--title-color);
         font-size: var(--small-font-size);
+        font-weight: 600;
     }
     
     .projects__subtitle {
@@ -682,7 +683,7 @@
     
     @media screen and (min-width: 768px) {
         .nav__menu {
-            width: 25%;
+            width: 40%;
         }
         .home__container,
         .about__container,

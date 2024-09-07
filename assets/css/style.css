@@ -806,6 +806,10 @@
         .projects__button {
             font-size: var(--normal-font-size);
         }
+        .projects__button:hover {
+            color: var(--first-color);
+            font-weight: 600;
+        }
         .contact__container {
             grid-template-columns: 680px;
             padding-block: 2.5rem 2rem;

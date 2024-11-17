@@ -5,9 +5,9 @@
     
      :root {
         --header-height: 3.5rem;
-        --hue: 190;
-        --first-color: hsl(var(--hue), 90%, 30%);
-        --first-color-alt: hsl(var(--hue), 65%, 35%);
+        --hue: 210;
+        --first-color: hsl(var(--hue), 65%, 40%);
+        --first-color-alt: hsl(var(--hue), 70%, 45%);
         --title-color: hsl(228, 8%, 95%);
         --text-color: hsl(228, 8%, 65%);
         --body-color: hsl(228, 15%, 20%);
@@ -351,7 +351,7 @@
     }
     
     .about-img {
-        transform: translateY(-13rem);
+        transform: translateY(-15rem);
     }
     
     .about__blob {
